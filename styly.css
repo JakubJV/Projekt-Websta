@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*** HEADER ***/
+
+header {
+    background: linear-gradient(rgba(39, 39, 39, 0.5), rgba(58, 57, 57, 0.3)), 
+    url("img/burger_bg.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+}
+
+
+
+/*** HEADER ***/
+
+/* Navigace */
+nav {
+    background:rgb(72, 121, 141);
+    height: 60px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 60px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color:white;
+    font-size: 21px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background: rgb(65, 66, 66);
+    transition: .5s;
+}
