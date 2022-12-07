@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*** HEADER ***/
+
+header {
+    background: linear-gradient(rgba(20, 39, 39, 0.5), rgba(58, 57, 57, 0.3)), 
+    url("img/burger_nabidka.jpg");
+    background-size: cover;
+    height: 30vh;
+}
+
+
+.header-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h1 {
+    color: rgb(238, 238, 238);
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+}
+
+
+
+/*** HEADER ***/
+
+/* Navigace */
+nav {
+    background:rgb(19, 43, 51);
+    height: 60px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 60px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color:white;
+    font-size: 21px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background: rgb(65, 66, 66);
+    transition: .5s;
+}
+
+/* Images */
+
+.menu-1 {
+    background: rgb(19, 43, 51);
+}
+
+.menu-1 img {
+    width: 400px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 150px;
+    
+}    
+
+.Nadpis1 {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Nadpis1 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+.menu-2 {
+    background: rgb(19, 43, 51);
+}
+
+.menu-2 img {
+    width: 400px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 250px;
+    
+}  
+
+.Nadpis2 {
+    position: absolute;
+    top: 112%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Nadpis2 h2 {
+    color: rgb(2, 2, 2);
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    text-align: bottom;
+}
