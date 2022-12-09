@@ -70,3 +70,10 @@ a:hover{
 .img-classic {
     width: 30px;
 }
+
+footer {
+    text-align: center;
+    padding: 2px;
+    margin: 0px;
+    font-weight: bold;
+}
