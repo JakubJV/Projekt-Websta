@@ -101,7 +101,7 @@ a:hover{
     top: 550px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -113,7 +113,7 @@ a:hover{
     top: 585px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
     
 }
@@ -133,7 +133,7 @@ a:hover{
     top: 86%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -145,7 +145,7 @@ a:hover{
     top: 857px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
     
 }
