@@ -47,7 +47,7 @@ header {
 main {
     width: auto;
     height: 800px;
-    background: rgb(37, 46, 49);
+    
 }
 
 
@@ -85,9 +85,7 @@ a:hover{
 
 /* Images */
 
-.menu-1 {
-    background: rgb(37, 46, 49);
-}
+
 
 .menu-1 img {
     width: 300px;
@@ -120,9 +118,6 @@ a:hover{
     
 }
 
-.menu-2 {
-    background: rgb(37, 46, 49);
-}
 
 .menu-2 img {
     width: 300px;

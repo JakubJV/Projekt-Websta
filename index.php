@@ -14,9 +14,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#" class="Home">World of Burgers</a></li>
-                <li><a href="#" class="Menu">Nabídka</a></li>
-                <li><a href="#" class="Contact">Kontakt</a></a></li>
+                <li><a href="index.php" class="Home">World of Burgers</a></li>
+                <li><a href="nabidka.php" class="Menu">Nabídka</a></li>
+                <li><a href="kontakt.php" class="Contact">Kontakt</a></a></li>
             </ul>
         </nav>
         <div class="clearfix"></div>
@@ -31,11 +31,12 @@
 
     </main>
 
-    <footer>
-        <p>
-            Created by World of Burgers. © 2022
-        </p>
-    </footer>
+    <?php
+
+    include "footer.php";
+
+    ?>
+
 </body>
 
 </html>

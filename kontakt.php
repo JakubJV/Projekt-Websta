@@ -13,9 +13,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#" class="Home">World of Burgers</a></li>
-                <li><a href="#" class="Menu">Nabídka</a></li>
-                <li><a href="#" class="Contact">Kontakt</a></a></li>
+                <li><a href="index.php" class="Home">World of Burgers</a></li>
+                <li><a href="nabidka.php" class="Menu">Nabídka</a></li>
+                <li><a href="kontakt.php" class="Contact">Kontakt</a></a></li>
             </ul>
         </nav>
     </header>
@@ -27,18 +27,33 @@
             <h1>World of Burgers</h1>
             <div class="row">
                 <div class="column">
-                    <p>Pražská 2380
+                    <p>Pražská tř. 6/62
                         <br>
                         Hradec Králové
                     </p>
                     <p>
                         Telefon: <strong style="font-size: 120%;">+420 600 350 250</strong>
                     </p>
+                    <p>&nbsp;</p>
+                    <h3>Otevírací doba</h3>
+                    <p>
+                        pondělí - čtvrtek: 11:30 - 22:00
+                        <br>
+                        pátek - sobota: 11:30 - 23:00
+                        <br>
+                        neděle: 12:00 - 21:30
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>Poslední objednávky přijímáme 45 minut před zavírací hodinou</p>
+                </div>
+            </div>
     </main>
 
-    <footer>
+    <?php
 
-    </footer>
+    include "footer.php";
+
+    ?>
 
 </body>
 

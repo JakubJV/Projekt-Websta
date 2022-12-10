@@ -88,3 +88,26 @@ h1 {
     list-style: none;
     left: 30%;
 }
+
+.column h3 {
+    position: relative;
+    margin-top: 21px;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    box-sizing: border-box;
+    left: 30%;
+    font-size: 140%;
+}
+
+/** Main **/
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 2px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+/** Footer **/
