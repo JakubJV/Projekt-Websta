@@ -47,6 +47,7 @@
                     <p>Poslední objednávky přijímáme 45 minut před zavírací hodinou</p>
                 </div>
             </div>
+        </div>
     </main>
 
     <?php

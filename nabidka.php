@@ -18,26 +18,13 @@
                 <li><a href="kontakt.php" class="Contact">Kontakt</a></a></li>
             </ul>
         </nav>
-        <div class="header-text">
-            <h1>Nabídka našich burgrů</h1>
-        </div>
     </header>
 
-    <main>
-        <div class="menu-1">
-            <img src="img/big_cheese1.jpg" alt="Big Cheesburger">
-            <h2>Big Cheesburger</h2>
-            <p>pořádná nálož hovězího s plátky cheddaru mezi dvěma kusy zlatavé bulky
-            </p>
-        </div>
-        <div class="menu-2">
-            <img src="img/special_burger1.jpg" alt="Special Burger">
-            <h2>Special Burger</h2>
-            <p>burger s kuřecím plátkem masa pokrytý avokádovou pastou</p>
-        </div>
-        <div class="clearfix"></div>
-    </main>
+    <div class="banner"></div>
 
+    <main>
+
+    </main>
     <?php
 
     include "footer.php";
