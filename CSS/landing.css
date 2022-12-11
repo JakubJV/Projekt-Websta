@@ -37,7 +37,7 @@ header {
 
 /* Navigace */
 nav {
-    background:rgb(19, 43, 51);
+    background:rgb(37, 46, 49);
     height: 60px;
     width: 100%;
 }
@@ -63,7 +63,7 @@ nav ul li a{
 }
 
 a:hover{
-    background: rgb(65, 66, 66);
+    background: rgb(0, 0, 0);
     transition: .5s;
 }
 

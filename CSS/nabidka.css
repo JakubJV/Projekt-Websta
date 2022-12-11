@@ -32,8 +32,85 @@ main {
     min-height: 600px;
     padding: 10px 0px 30px 0px;
     box-sizing: border-box;
+    margin-bottom: 50px;
 }
 
+.container h1 {
+    position: relative;
+    margin-top: 21px;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    box-sizing: border-box;
+    left: 30%;
+    font-size: 140%;
+}
+
+.column1 img {
+    position: relative;
+    width: 220px;
+    left: 30%;
+    box-sizing: border-box;
+    margin-top: 11px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+
+}
+
+.column1 h3 {
+    position: relative;
+    margin-top: 21px;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    box-sizing: border-box;
+    left: 30%;
+    font-size: 140%;
+}
+
+.column1 p {
+    position: relative;
+    margin: 0 0 0.5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 1.42857143;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    left: 30%;
+
+}
+
+.column2 img {
+    position: relative;
+    width: 220px;
+    left: 30%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+
+}
+
+.column2 p {
+    position: relative;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 1.42857143;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    left: 30%;
+
+}
+
+.column2 h3 {
+    position: relative;
+    margin-top: 11px;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    box-sizing: border-box;
+    left: 30%;
+    font-size: 140%;
+}
 
 
 /* Navigace */
@@ -66,73 +143,6 @@ nav ul li a{
 a:hover{
     background: rgb(0, 0, 0);
     transition: .5s;
-}
-
-/* Images */
-
-
-
-.menu-1 img {
-    width: 300px;
-    display: block;
-    margin: 0px auto;
-    position: relative;
-    top: 40px;
-    
-}    
-
-.menu-1 h2 {
-    position: absolute;
-    top: 550px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    word-spacing: 3px;
-}
-
-.menu-1 p {
-    position: absolute;
-    top: 585px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
-    letter-spacing: 1px;
-    
-}
-
-
-.menu-2 img {
-    width: 300px;
-    display: block;
-    margin: 0px auto;
-    position: relative;
-    top: 135px;
-    
-} 
-
-.menu-2 h2 {
-    position: absolute;
-    top: 86%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    word-spacing: 3px;
-}
-
-.menu-2 p {
-    position: absolute;
-    top: 857px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
-    letter-spacing: 1px;
-    
 }
 
 
