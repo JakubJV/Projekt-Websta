@@ -38,7 +38,15 @@
                     <h3>Special Burger</h3>
                     <p>Burger s kuřecím plátkem masa pokrytým avokádovou pastou</p><br>
                     <p>(pšeničná houska, 200g kuřecího masa, cheddar, avokádová pasta, kyselá okurka, BBQ omáčka)</p>
-
+                </div>
+                <div class="column3">
+                    <form action="" class="form">
+                        <h5>Napište jak Vám chutnalo</h5>
+                        <input type="text" placeholder="Jméno a příjmení">
+                        <input type="email" placeholder="Email">
+                        <textarea name="" rows="10" cols="30"></textarea>
+                        <input type="submit" value="Odeslat">
+                    </form>
                 </div>
     </main>
 
