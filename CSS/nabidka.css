@@ -146,7 +146,9 @@ a:hover{
     transition: .5s;
 }
 
+/* Navigace */
 
+/* Footer */
 
 footer {
     text-align: center;
@@ -155,6 +157,9 @@ footer {
     font-weight: bold;
 }
 
+/* Footer */
+
+/* Formulář */
 .form {
     position: relative;
     left: 40%;
@@ -211,6 +216,8 @@ textarea:focus{
 .form input[type="submit"]:hover {
     background: rgb(0, 0, 0);
 }
+
+/* Formulář */
 
 .clearfix:after {
     content: "";
