@@ -36,6 +36,8 @@
                     </p>
                     <p>&nbsp;</p>
                     <h3>Otevírací doba</h3>
+                    <?php $today = date("d M Y h:i A"); ?>
+                    <?php echo $today ?>
                     <p>
                         pondělí - čtvrtek: 11:30 - 22:00
                         <br>
