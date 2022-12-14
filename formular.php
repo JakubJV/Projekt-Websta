@@ -4,42 +4,52 @@
         
         $fullname = $_POST["fullname"];
         $email = $_POST["email"];
-        $comments = $_POST["comments"];   
+        $comments = $_POST["comments"];
 
+        
         if($fullname && $email && $comments){
             echo $fullname;
             echo "<br>";
-            echo $email;
+            echo $email; 
             echo "<br>";
-            echo $comments;
-         } else {
-            echo "Něco jste zapomněly vpylnit.";
-         }
+            echo $comments; 
+        } else {
+            echo "Něco nám chybí";
+        }
         
-    }
-
-        $connection = mysqli_connect("localhost", "root", "", "feedbackburgers");
-
+        // připojení do databáze
+        $connection = mysqli_connect("localhost","root","","feedbackburgers");
+        
         if($connection){
             echo "Jsme propojeni s databází";
         } else {
-            die("Něco se pokazilo.");
+            echo "Ou, něco se pokazilo";
         }
 
-        $query = "INSERT INTO reviews (fullname, email, comments) Values('$fullname', '$email', '$comments')";
-
-        $result = mysqli_query($connection, $query);
-
+        $connection = mysqli_connect("localhost","root","","feedbackburgers");
+        
+        if($connection){
+            echo "Jsme propojení s databází";
+        } else {
+            die("Ou, něco se pokazilo");
+        }
+        
+        $query = "INSERT INTO reviews(fullname, email, comments) VALUES('$fullname','$email', '$comments')";
+        
+        $result = mysqli_query($connection,$query);
+        
         if(!$result){
-            die("Něco se pokazilo.");
-        }
- 
+            die("Dotaz do databáze selhal".mysqli_error());
+        }   
+    }
+
+
 ?>
 
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -55,7 +65,7 @@
             <input type="text" name="fullname" placeholder="Jméno a příjmení">
             <input type="email" name="email" placeholder="Email">
             <textarea name="comments" rows="10" cols="30"></textarea>
-            <input type="submit" name="submit" value="Odeslat">
+            <input type="submit" value="Odeslat" name="submit">
         </form>
     </div>
     
