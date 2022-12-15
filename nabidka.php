@@ -39,6 +39,10 @@
                     <p>Burger s kuřecím plátkem masa pokrytým avokádovou pastou</p><br>
                     <p>(pšeničná houska, 200g kuřecího masa, cheddar, avokádová pasta, kyselá okurka, BBQ omáčka)</p>
                 </div>
+                <?php
+                include "formular.php";
+                ?>
+                
     </main>
 
     <?php

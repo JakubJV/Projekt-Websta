@@ -1,46 +1,10 @@
 <?php
 
+    include "mysql/db.php";
+    Connection();
+
     if(isset($_POST["submit"])){
-        
-        $fullname = $_POST["fullname"];
-        $email = $_POST["email"];
-        $comments = $_POST["comments"];
-
-        
-        if($fullname && $email && $comments){
-            echo $fullname;
-            echo "<br>";
-            echo $email; 
-            echo "<br>";
-            echo $comments; 
-        } else {
-            echo "Něco nám chybí";
-        }
-        
-        // připojení do databáze
-        $connection = mysqli_connect("localhost","root","","feedbackburgers");
-        
-        if($connection){
-            echo "Jsme propojeni s databází";
-        } else {
-            echo "Ou, něco se pokazilo";
-        }
-
-        $connection = mysqli_connect("localhost","root","","feedbackburgers");
-        
-        if($connection){
-            echo "Jsme propojení s databází";
-        } else {
-            die("Ou, něco se pokazilo");
-        }
-        
-        $query = "INSERT INTO reviews(fullname, email, comments) VALUES('$fullname','$email', '$comments')";
-        
-        $result = mysqli_query($connection,$query);
-        
-        if(!$result){
-            die("Dotaz do databáze selhal".mysqli_error());
-        }   
+        PostFunction();
     }
 
 
@@ -60,7 +24,7 @@
 <body>
 
     <div class="column3">
-        <form action="formular.php" method="post" class="form">
+        <form action="nabidka.php" method="post" class="form">
             <h5>Napište nám jak Vám chutnalo</h5>
             <input type="text" name="fullname" placeholder="Jméno a příjmení">
             <input type="email" name="email" placeholder="Email">
