@@ -16,6 +16,8 @@ Struktura:
 
 -/nabidka.php - stránka s nabídkou produktů a s includovaným formulářem ze souboru formular.php
 
+-v branch "darknavigation" je navigace webové stránky v černém provedení
+
 Celý program napsaný v IDE VScode.
 
 Pro vytvoření webového lokálního serveru použit software XAMPP.
