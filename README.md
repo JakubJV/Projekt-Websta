@@ -1,6 +1,7 @@
 Jednoduchá webová stránka s formulářem, který zasílá recenze zákazníků do databáze.
 
 Struktura:
+
 -/CSS - v této složce jsou uloženy soubory stylů v css jazyce
 -/CSS/img - soubor s veškerými obrázky, které jsou na webu použity
 -/mysql - soubor s kódem pro připojení a zasílání dat do databáze
